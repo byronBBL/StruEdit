@@ -1,0 +1,17 @@
+Please choose the most semantically similar relation to the target relation from the following candidate relations (Please just answer a unique chosen relation id)
+Target relation: head of state
+Candidate relations: 0: spouse; 1: country; 2: president
+Chosen relation id: 2
+
+Target relation: capital
+Candidate relations: 0: capital; 1: first citizen; 2: country; 3: continent
+Chosen relation id: 0
+
+Target relation: founder
+Candidate relations: 0: father; 1: creator; 2: president
+Chosen relation id: 1
+
+Target relation: spouse
+Candidate relations: 0: wife; 1: mate; 2: partner
+Chosen relation id: 0
+

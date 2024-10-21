@@ -1,0 +1,24 @@
+Please extract the entity and the multi-hop relation from the question (multi-hop relation should be given in order)
+Q: What is the capital city of the country of citizenship of Ivanka Trump's spouse?
+Entity: Ivanka Trump
+Sequential relation: [spouse, country, capital]
+
+Q: Who is the head of state of the country where Rainn Wilson holds a citizenship?
+Entity: Rainn Wilson
+Sequential relation: [country, head of state]
+
+Q: On which continent is the country of citizenship of the founder of the manufacturer of iPhone 5 situated?
+Entity: iPhone 5
+Sequential relation: [manufacturer, founder, country, continent]
+
+Q: Which writer's country of citizenship is the same as the author of "Misery"?
+Entity: Misery
+Sequential relation: [author, country]
+
+Q: What is the capital of the country to which Lou Pearlman belonged?
+Entity: Lou Pearlman
+Sequential relation: [country, capital]
+
+Q: In what continent is the location of the headquarter of the educational institution where the founder of the Family Research Council studied?
+Entity: Family Research Council
+Sequential relation: [founder, educational institution, headquarter location, continent]
