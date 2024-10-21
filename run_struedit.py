@@ -22,9 +22,8 @@ from datetime import datetime
 import time
 import re
 
-os.environ["CUDA_VISIBLE_DEVICES"] = "6"
-model_name = '/home/liushenghua/bibaolong/work3//Llama-2-7b-chat-hf'
-# model_name = 'meta-llama/Llama-2-7b-chat-hf'
+
+model_name = 'meta-llama/Llama-2-7b-chat-hf'
 
 class LLamaQaStoppingCriteria(StoppingCriteria):
     def __init__(self, list_token_ids_sequence: list = []):
@@ -139,11 +138,11 @@ def reasoning_on_KG(model, tokenizer, stopping_criteria, stop, source_id, relati
     
     
 
-with open('work6/StruEdit/MQuAKE/datasets/MQuAKE-CF-3k.json', 'r') as f:
+with open('StruEdit/MQuAKE/datasets/MQuAKE-CF-3k.json', 'r') as f:
     dataset = json.load(f)
-with open('work6/StruEdit/prompts/prompt_extract.txt', 'r') as f:
+with open('StruEdit/prompts/prompt_extract.txt', 'r') as f:
     extract_task_prompt = f.read()
-with open('work6/StruEdit/prompts/prompt_select.txt', 'r') as f:
+with open('StruEdit/prompts/prompt_select.txt', 'r') as f:
     select_task_prompt = f.read() 
 
 
